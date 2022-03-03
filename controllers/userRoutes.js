@@ -4,7 +4,7 @@ const router = require('express').Router();
 // render the login page
 router.get('/login', async (req,res) => {
     try{
-        res.render('login');
+        res.render('loginpage');
     } catch (err) {
         res.status(500).json(err)
     }
