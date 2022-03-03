@@ -1,6 +1,6 @@
 const router = require('express').Router();
 //const {User, Recipe, Category, Comments} = require('../../models');
-const withAuth = require('../../utils/auth');
+const withAuth = require('../../../utils/auth');
 
 // add a recipe
 router.post('/', withAuth, async (req,res) => {
