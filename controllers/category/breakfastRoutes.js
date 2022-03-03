@@ -4,7 +4,7 @@ const router = require('express').Router();
 // get all recipes that are desserts
 router.get('/', async (req,res) => {
     try{
-        const dessertData = await Recipe.findAll({
+        const breakfastData = await Recipe.findAll({
             include: [{
                 model: User,
                 attributes: ['first_name','last_name']
@@ -14,9 +14,9 @@ router.get('/', async (req,res) => {
             }
         });
 
-        const desserts = dessertData.map((dessert) => dessert.get({plain:true}));
+        const breakfasts = breakfastData.map((breakfast) => breakfast.get({plain:true}));
     
-        res.render('category', desserts)
+        res.render('category', breakfasts)
     } catch (err) {
         res.status(500).json(err)
     }
