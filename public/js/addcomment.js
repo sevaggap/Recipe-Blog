@@ -2,9 +2,9 @@ const commentFormHandler = async (event) => {
     event.preventDefault();
   
     const title = document.querySelector('#recipe-title').value.trim();
-    const comment = document.querySelector('#comment').value.trim();
+    const text = document.querySelector('#comment').value.trim();
   
-    if (title && comment) {
+    if (title && text) {
       const response = await fetch('/user/addrecipe', {
         method: 'POST',
         body: JSON.stringify({ title, description, ingredients, directions, category }),
