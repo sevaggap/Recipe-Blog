@@ -1,12 +1,13 @@
 const router = require('express').Router();
 //const {User} = require('../../models');
+const withAuth = require('../../utils/auth');
 
 // render the login page
 router.get('/login', async (req,res) => {
     try{
         res.render('loginpage');
     } catch (err) {
-        res.status(500).json(err)
+        res.status(500).json(err);
     }
 });
 
