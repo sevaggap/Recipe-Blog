@@ -23,6 +23,10 @@ Recipe.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
+    steps: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
     // date_created: {
     //   type: DataTypes.DATE,
     //   allowNull: false,

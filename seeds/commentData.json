@@ -1,0 +1,17 @@
+[
+    {
+        "text": "SO GOOOOOD!",
+        "recipe_id": 1,
+        "user_id": 1
+    },
+    {
+        "text": "boring!",
+        "recipe_id": 2,
+        "user_id": 1
+    },
+    {
+        "text": "my fav!",
+        "recipe_id": 3,
+        "user_id": 2
+    }
+]

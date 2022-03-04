@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Popcorn",
+      "description": "a light snack for anytime of the day :)",
+      "ingredients": "Popcorn Kernels, Oil, Butter, Salt, Caramel",
+      "steps": "Heat oil and butter in a pan, Add popcorn kernels, caramel, salt to the pan, Cover and cook until popping stops. Shake occasionally, Once kernels pop transfer to a bowl and enjoy!",
+      "category_id": 1,
+      "user_id": 1
+    },
+    {
+        "title": "Bread and butter",
+        "description": "simple appetizer recipe",
+        "ingredients": "bread, butter",
+        "steps": "First take the bread and make sure it's not expired, Next use a knife and get a little butter on it and spread it on the slice of bread, That's it!",
+        "category_id": 2,
+        "user_id": 1
+    },
+    {
+        "title": "Chocolate Sundae",
+        "description": "simple sweet treat",
+        "ingredients": "ice cream of your choice, chocolate sauce, whipped cream",
+        "steps": "First scoop ice cream into a bowl, Next top with chocolate sauce and whipped cream, That's it!",
+        "category_id": 4,
+        "user_id": 2
+    }
+]
