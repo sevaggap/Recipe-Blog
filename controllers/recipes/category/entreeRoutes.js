@@ -14,9 +14,9 @@ router.get('/', async (req,res) => {
             }
         });
 
-        const entrees = entreeData.map((entree) => entree.get({plain:true}));
+        const recipes = entreeData.map((entree) => entree.get({plain:true}));
     
-        res.render('category', entrees);
+        res.render('category', recipes);
 
     } catch (err) {
         res.status(500).json(err)
