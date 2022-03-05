@@ -1,22 +1,22 @@
 const router = require('express').Router();
-//const {User, Recipe, Category, Comments} = require('../../models');
+const {User, Recipe, Category, Comments} = require('../../../models');
 
 // get all recipes that are snacks
 router.get('/', async (req,res) => {
     try{
-        const breakfastData = await Recipe.findAll({
+        const snackData = await Recipe.findAll({
             include: [{
                 model: User,
                 attributes: ['first_name','last_name']
             }],
             where: {
-                category_id: 4,
+                category_id: 1,
             }
         });
 
-        const breakfasts = breakfastData.map((breakfast) => breakfast.get({plain:true}));
+        const snacks = snackData.map((snack) => snack.get({plain:true}));
     
-        res.render('category', breakfasts);
+        res.render('category', snacks);
 
     } catch (err) {
         res.status(500).json(err)
@@ -26,16 +26,16 @@ router.get('/', async (req,res) => {
 // get a specific recipe
 router.get('/:id', async (req,res) => {
     try{
-        const breakfastData = await Recipe.findByPk(req.params.id, {
+        const snackData = await Recipe.findByPk(req.params.id, {
             include: [{
                 model: User,
                 attributes: ['first_name','last_name']
             }]
         })
 
-        const breakfast = breakfastData.get({plain:true});
+        const snack = snackData.get({plain:true});
 
-        res.render("snacks", breakfast);
+        res.render("snacks", snack);
 
     } catch (err) {
         res.status(500).json(err);
