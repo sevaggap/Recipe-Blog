@@ -14,9 +14,9 @@ router.get('/', async (req,res) => {
             }
         });
 
-        const snacks = snackData.map((snack) => snack.get({plain:true}));
+        const recipes = snackData.map((snack) => snack.get({plain:true}));
     
-        res.render('category', snacks);
+        res.render('category', recipes);
 
     } catch (err) {
         res.status(500).json(err)

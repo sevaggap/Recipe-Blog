@@ -14,9 +14,9 @@ router.get('/', async (req,res) => {
             }
         });
 
-        const appetizers = appetizerData.map((appetizer) => appetizer.get({plain:true}));
+        const recipes = appetizerData.map((appetizer) => appetizer.get({plain:true}));
     
-        res.render('category', appetizers);
+        res.render('category', recipes);
         
     } catch (err) {
         res.status(500).json(err)
