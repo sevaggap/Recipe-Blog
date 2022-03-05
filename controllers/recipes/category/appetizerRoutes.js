@@ -1,5 +1,5 @@
 const router = require('express').Router();
-//const {User, Recipe, Category, Comments} = require('../../models');
+const {User, Recipe, Category, Comments} = require('../../../models');
 
 // get all the recipes that are appetizers
 router.get('/', async (req,res) => {
@@ -10,13 +10,14 @@ router.get('/', async (req,res) => {
                 attributes: ['first_name','last_name']
             }],
             where: {
-                category_id: 1,
+                category_id: 2,
             }
         });
 
         const appetizers = appetizerData.map((appetizer) => appetizer.get({plain:true}));
     
-        res.render('category', appetizers)
+        res.render('category', appetizers);
+        
     } catch (err) {
         res.status(500).json(err)
     }

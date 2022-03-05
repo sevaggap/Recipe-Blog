@@ -1,5 +1,5 @@
 const router = require('express').Router();
-//const {User, Recipe, Category, Comments} = require('../../models');
+const {User, Recipe, Category, Comments} = require('../../../models');
 
 // get all recipes that are entree
 router.get('/', async (req,res) => {
@@ -10,7 +10,7 @@ router.get('/', async (req,res) => {
                 attributes: ['first_name','last_name']
             }],
             where: {
-                category_id: 2,
+                category_id: 3,
             }
         });
 
