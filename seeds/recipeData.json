@@ -8,12 +8,20 @@
       "user_id": 1
     },
     {
+        "title": "Potato Chips",
+        "description": "A tasty and easy alternative to store-bought potato chips",
+        "ingredients": "1 tablespoon vegetable oil , 1 potato; sliced paper thin (peel optional), ½ teaspoon salt; or to taste",
+        "steps": "First take the bread and make sure it's not expired, Next use a knife and get a little butter on it and spread it on the slice of bread, That's it!",
+        "category_id": 1,
+        "user_id": 1
+    },
+    {
         "title": "Bread and butter",
         "description": "simple appetizer recipe",
         "ingredients": "bread, butter",
         "steps": "First take the bread and make sure it's not expired, Next use a knife and get a little butter on it and spread it on the slice of bread, That's it!",
         "category_id": 2,
-        "user_id": 1
+        "user_id": 2
     },
     {
         "title": "Chocolate Sundae",
@@ -22,5 +30,29 @@
         "steps": "First scoop ice cream into a bowl, Next top with chocolate sauce and whipped cream, That's it!",
         "category_id": 4,
         "user_id": 2
+    },
+    {
+        "title": "Chocolate Maple Bars",
+        "description": "These bars are delicious!",
+        "ingredients": "1/2 cup shortening, 3/4 cup maple syrup, 1/2 cup sugar, 3 large eggs: room temperature, 3 tablespoons 2% milk, 1 teaspoon vanilla extract, 1-1/4 cups all-purpose flour, 1/4 teaspoon baking powder, 1/4 teaspoon salt, 1-1/2 ounces unsweetened chocolate: melted, 1/2 cup chopped pecans, 1/2 cup sweetened shredded coconut",
+        "steps": "Preheat oven to 350°. In a large bowl cream the shortening syrup and sugar until light and fluffy for 5-7 minutes. Beat in the eggs milk and vanilla. Combine the flour baking powder and salt; add to creamed mixture and mix well. Remove half the batter to another bowl., Combine melted chocolate and pecans; stir into 1 bowl of batter. Spread into a greased 13x9-in. baking pan. Add coconut to remaining batter. Spread carefully over chocolate batter. , Bake until a toothpick inserted in the center comes out clean about 25 minutes. Cool completely on a wire rack., For frosting in a small bowl beat butter until smooth. Gradually add the confectioners' sugar and cocoa. Gradually add syrup beating until smooth. Fold in marshmallows. Frost bars",
+        "category_id": 4,
+        "user_id": 3
+    },
+    {
+        "title": "Crazy Delicious Baby Back Ribs",
+        "description": "Crave a good ribs recipe? Check this out!",
+        "ingredients": "2 tablespoons smoked paprika, 2 teaspoons chili powder, 2 teaspoons garlic salt, 1 teaspoon onion powder, 1 teaspoon pepper, 1/2 teaspoon cayenne pepper, 4 pounds pork baby back ribs, 1/2 cup Worcestershire sauce, 1/2 cup mayonnaise, 1/2 cup yellow mustard, 1/4 cup reduced-sodium soy sauce, 3 tablespoons hot pepper sauce",
+        "steps": "In a small bowl combine the first 6 ingredients. Cut ribs into serving-size pieces; rub with seasoning mixture. Place ribs in a 6-qt. slow cooker. Cook; covered; on low until meat is tender; 5-6 hours., Preheat oven to 375°. In a small bowl; whisk the sauce ingredients. Transfer ribs to a foil-lined 15x10x1-in. baking pan; brush with some of the sauce. Bake until browned; 15-20 minutes; turning once and brushing occasionally with sauce. Serve with remaining sauce.",
+        "category_id": 3,
+        "user_id": 3
+    },
+    {
+        "title": "Potato Soup",
+        "description": "The extra flavor gives a deliciously different twist to an otherwise ordinary soup",
+        "ingredients": "3 pounds potatoes; peeled and cut into 1/2-inch cubes (8 cups), 1 large onion, chopped, 1 jar (7 ounces) roasted sweet red peppers; drained and chopped, 1 small celery rib; chopped, 6 cups chicken broth, 1/2 teaspoon garlic powder, 1/2 teaspoon seasoned salt, 1/2 teaspoon pepper, 1/8 teaspoon rubbed sage, 1/3 cup all-purpose flour, 2 cups heavy whipping cream; divided, 1 cup grated Parmesan cheese; divided, 8 bacon strips; cooked and crumbled, 2 tablespoons minced fresh cilantro",
+        "steps": "Place first 9 ingredients in a 5- or 6-qt. slow cooker. Cook; covered; on low 5-6 hours or until potatoes are tender., Mix flour and 1/2 cup cream until smooth; stir into soup. Stir in 3/4 cup cheese and the bacon cilantro and remaining cream. Cook; covered; on low until slightly thickened; about 30 minutes. Serve with remaining cheese.",
+        "category_id": 2,
+        "user_id": 4
     }
 ]
