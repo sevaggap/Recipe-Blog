@@ -16,6 +16,8 @@ router.get('/:id', async (req,res) => {
         const ingredients = recipeData.ingredients.split(';');
         const steps = recipeData.steps.split(';');
         
+        console.log(recipe);
+        
         console.log(ingredients);
         console.log(steps);
         console.log(recipe);
