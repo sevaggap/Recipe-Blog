@@ -8,22 +8,27 @@
 
         <div class="row animate-box single fh5co-heading">
             <div class="col-md-6">
-                <div class="desc">
+                <div class=“desc”>
                     <h3>Ingredients</h3>
-                    <p>{{recipe.ingredients}}</p>
-                </div>
-                <div class="desc">
-                    <h3>Steps</h3>
+                    {{#each ingredients as |ingredient|}}
                     <ul>
-                        <li>{{recipe.recipe_steps}}</li>
+                        <li>{{ingredient}}</li>
                     </ul>
+                    {{/each}}
                 </div>
-            </div>
+                <div class=“desc”>
+                    <h3>Steps</h3>
+                   {{#each steps as |step|}}
+                    <ul>
+                        <li>{{step}}</li>
+                    </ul>
+                    {{/each}}
+                </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="{{recipe.image_url}}" alt="{{recipe.title}}">
             </div>
             <div class="col-md-12 text-center mt-25">
-                <h4>Posted by {{recipe.user.username}} on {{format_date recipe.created_at}}</h4>
+                <h4>Posted by {{recipe.users.first_name}} </h4>
             </div>
         </div>
 
