@@ -14,7 +14,7 @@ router.get('/', withAuth, async (req,res) => {
 // add a recipe
 router.post('/', withAuth, async (req,res) => {
     try{
-        if(req.body.category == 'Breakfast') {
+        if(req.body.category == 'Snack') {
             category = 1;
         } else if(req.body.category == 'Appetizer') {
             category = 2;
@@ -28,7 +28,7 @@ router.post('/', withAuth, async (req,res) => {
             title: req.body.title,
             description: req.body.description,
             ingredients: req.body.ingredients,
-            directions: req.body.directions,
+            steps: req.body.steps,
             category_id: category,
             user_id: req.session.user_id,
         });
