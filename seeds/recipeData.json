@@ -3,23 +3,23 @@
       "title": "Popcorn",
       "description": "a light snack for anytime of the day :)",
       "ingredients": "Popcorn Kernels; Oil; Butter; Salt; Caramel",
-      "steps": "Heat oil and butter in a pan; Add popcorn kernels; caramel; salt to the pan; Cover and cook until popping stops. Shake occasionally; Once kernels pop; transfer to a bowl and enjoy!",
+      "steps": "Heat oil and butter in a pan; Add popcorn kernels, caramel, salt to the pan; Cover and cook until popping stops. Shake occasionally; Once kernels pop; transfer to a bowl and enjoy!",
       "category_id": 1,
       "user_id": 1
     },
     {
         "title": "Potato Chips",
         "description": "A tasty and easy alternative to store-bought potato chips",
-        "ingredients": "1 tablespoon vegetable oil; 1 potato; sliced paper thin (peel optional); ½ teaspoon salt; or to taste",
+        "ingredients": "1 tablespoon vegetable oil; 1 potato, sliced paper thin (peel optional); ½ teaspoon salt, or to taste",
         "steps": "First take the bread and make sure it's not expired; Next use a knife and get a little butter on it and spread it on the slice of bread; That's it!",
         "category_id": 1,
         "user_id": 3
     },
     {
         "title": "Clam Fritter Snacks",
-        "description": "These are the easiest clam snacks; excellent if you love seafood!! ",
-        "ingredients": "1 (10 ounce) can minced clams; drained; 1 cup baking mix; 1 egg; beaten; 2 tablespoons vegetable oil",
-        "steps": "Drain the clams. In a medium bowl; beat 1 egg and stir in the cup of baking mix and clams.; In a medium skillet heat the oil and fry the clams in pieces until golden brown. Drain on a plate lined with paper towels.",
+        "description": "These are the easiest clam snacks, excellent if you love seafood!! ",
+        "ingredients": "1 (10 ounce) can minced clams, drained; 1 cup baking mix; 1 egg, beaten; 2 tablespoons vegetable oil",
+        "steps": "Drain the clams. In a medium bowl, beat 1 egg and stir in the cup of baking mix and clams.; In a medium skillet heat the oil and fry the clams in pieces until golden brown. Drain on a plate lined with paper towels.",
         "category_id": 1,
         "user_id": 5
     },
@@ -58,7 +58,7 @@
     {
         "title": "Outrageous Warm Chicken Nacho Dip",
         "description": "This is a serious crowd-pleaser that is served hot as a dip, spooned over crisp tortilla chips nacho-style, or rolled up in a warm flour tortilla!",
-        "ingredients": "1 (14 ounce) can diced tomatoes with green chile peppers (such as RO*TEL®), drained; 1 (1 pound) loaf processed cheese food (such as Velveeta®), cubed; 2 large cooked skinless, boneless chicken breast halves, shredded; ⅓ cup sour cream; ¼ cup diced green onion; 1 ½ tablespoons taco seasoning mix; 2 tablespoons minced jalapeno pepper, or to taste (Optional); 1 cup black beans, rinsed and drained",
+        "ingredients": "1 (14 ounce) can diced tomatoes with green chile peppers (such as RO*TEL®), drained; 1 (1 pound) loaf processed cheese food (such as Velveeta®), cubed; 2 large cooked skinless, boneless chicken breast halves, shredded; ⅓ cup sour cream; ¼ cup diced green onion; 1½ tablespoons taco seasoning mix; 2 tablespoons minced jalapeno pepper, or to taste (Optional); 1 cup black beans, rinsed and drained",
         "steps": "Place the diced tomatoes, processed cheese, chicken meat, sour cream, green onion, taco seasoning, and jalapeno pepper into a slow cooker. Cook on High, stirring occasionally until the cheese has melted and the dip is hot, 1 to 2 hours. Stir in the black beans, and cook 15 more minutes to reheat.",
         "category_id": 2,
         "user_id": 6
