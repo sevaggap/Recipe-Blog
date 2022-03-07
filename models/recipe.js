@@ -20,11 +20,11 @@ Recipe.init(
       allowNull: false,
     },
     ingredients: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
     steps: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
     // date_created: {
