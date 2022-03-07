@@ -13,8 +13,8 @@ router.get('/:id', async (req,res) => {
 
         const recipe = recipeData.get({plain:true});
 
-        const ingredients = recipeData.ingredients.split(',');
-        const steps = recipeData.steps.split(',');
+        const ingredients = recipeData.ingredients.split(';');
+        const steps = recipeData.steps.split(';');
         
         console.log(ingredients);
         console.log(steps);
