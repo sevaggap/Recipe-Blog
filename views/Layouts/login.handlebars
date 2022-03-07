@@ -32,17 +32,17 @@
                             <li class="has-dropdown">
                                 <a href="/recipes">Recipes</a>
                                 <ul class="dropdown">
-                                    <li><a href="/recipes/category/Appetizers">Appetizers</a></li>
-                                    <li><a href="/recipes/category/Breakfast">Entrees</a></li>
+                                    <li><a href="/recipes/category/Appetizer">Appetizers</a></li>
+                                    <li><a href="/recipes/category/Entrees">Entrees</a></li>
                                     <li><a href="/recipes/category/Dessert">Dessert</a></li>
-                                    <li><a href="/recipes/category/Dessert">Snacks</a></li>
+                                    <li><a href="/recipes/category/Snacks">Snacks</a></li>
                                 </ul>
                             </li>
                             {{#if loggedIn}}
                             <li><a href="/dashboard">My Recipes</a></li>
-                            <li><a href="USER/logout" id="logout">Logout</a></li>
+                            <li><a href="/logout" id="logout">Logout</a></li>
                             {{else}}
-                            <li><a href="USER/login">Login</a></li>
+                            <li><a href="/login">Login</a></li>
                             {{/if}}
                         </ul>
                     </div>
