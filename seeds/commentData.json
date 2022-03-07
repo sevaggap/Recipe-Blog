@@ -12,6 +12,141 @@
     {
         "text": "my fav!",
         "recipe_id": 3,
+        "user_id": 1
+    },
+    {
+        "text": "good stuff!",
+        "recipe_id": 4,
+        "user_id": 2
+    },
+    {
+        "text": "lovely!",
+        "recipe_id": 5,
+        "user_id": 2
+    },
+    {
+        "text": "absolutely amazing!",
+        "recipe_id": 6,
+        "user_id": 2
+    },
+    {
+        "text": "there could've been more flavor but its a good recipe",
+        "recipe_id": 7,
+        "user_id": 2
+    },
+    {
+        "text": "not it for me lol",
+        "recipe_id": 8,
+        "user_id": 2
+    },
+    {
+        "text": "i like this a lot!",
+        "recipe_id": 9,
+        "user_id": 2
+    },
+    {
+        "text": "ehhhhh not the best...",
+        "recipe_id": 10,
+        "user_id": 2
+    },
+    {
+        "text": "favoriteeee",
+        "recipe_id": 11,
+        "user_id": 2
+    },
+    {
+        "text": "10/10",
+        "recipe_id": 12,
+        "user_id": 2
+    },
+    {
+        "text": "made this for my son...he loved it!",
+        "recipe_id": 13,
+        "user_id": 2
+    },
+    {
+        "text": "my family loved this",
+        "recipe_id": 14,
+        "user_id": 2
+    },
+    {
+        "text": "my freinds and I made this together, and we had an amazing time! Appreciate this recipe",
+        "recipe_id": 15,
+        "user_id": 2
+    },
+    {
+        "text": "very well explained, found it super easy to make this one!",
+        "recipe_id": 16,
+        "user_id": 2
+    },
+    {
+        "text": "recommend this one to everyone! It's a must!",
+        "recipe_id": 17,
+        "user_id": 2
+    },
+    {
+        "text": "love this!",
+        "recipe_id": 18,
+        "user_id": 2
+    },
+    {
+        "text": "great stuff",
+        "recipe_id": 19,
+        "user_id": 2
+    },
+    {
+        "text": "11/10",
+        "recipe_id": 20,
+        "user_id": 2
+    },
+    {
+        "text": "wonderful recipe",
+        "recipe_id": 9,
+        "user_id": 2
+    },
+    {
+        "text": "beautiful recipe with amazing flavor",
+        "recipe_id": 11,
+        "user_id": 2
+    },
+    {
+        "text": "im gonna make this for my fam, thanks!!",
+        "recipe_id": 4,
+        "user_id": 2
+    },
+    {
+        "text": "amazing",
+        "recipe_id": 15,
+        "user_id": 2
+    },
+    {
+        "text": "lovely recipe",
+        "recipe_id": 6,
+        "user_id": 2
+    },
+    {
+        "text": "my girlfriend made this for me, and I fell in love with her even more ;) i love seafood",
+        "recipe_id": 14,
+        "user_id": 2
+    },
+    {
+        "text": "yesssss i love this",
+        "recipe_id": 8,
+        "user_id": 2
+    },
+    {
+        "text": "not good",
+        "recipe_id": 19,
+        "user_id": 2
+    },
+    {
+        "text": "naaaaaah",
+        "recipe_id": 20,
+        "user_id": 2
+    },
+    {
+        "text": "not great at all",
+        "recipe_id": 17,
         "user_id": 2
     }
 ]
