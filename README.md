@@ -1,4 +1,4 @@
-# UofT-SCS-Coding-Bootcamp-Project-2
+# Recipe Blog
 
 ## Hi There! 👋🏼 Welcome to our Recipe Blog
 
