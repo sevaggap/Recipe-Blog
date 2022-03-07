@@ -2,57 +2,161 @@
     {
       "title": "Popcorn",
       "description": "a light snack for anytime of the day :)",
-      "ingredients": "Popcorn Kernels, Oil, Butter, Salt, Caramel",
-      "steps": "Heat oil and butter in a pan, Add popcorn kernels, caramel, salt to the pan, Cover and cook until popping stops. Shake occasionally, Once kernels pop transfer to a bowl and enjoy!",
+      "ingredients": "Popcorn Kernels; Oil; Butter; Salt; Caramel",
+      "steps": "Heat oil and butter in a pan; Add popcorn kernels; caramel; salt to the pan; Cover and cook until popping stops. Shake occasionally; Once kernels pop; transfer to a bowl and enjoy!",
       "category_id": 1,
       "user_id": 1
     },
     {
         "title": "Potato Chips",
         "description": "A tasty and easy alternative to store-bought potato chips",
-        "ingredients": "1 tablespoon vegetable oil , 1 potato; sliced paper thin (peel optional), ½ teaspoon salt; or to taste",
-        "steps": "First take the bread and make sure it's not expired, Next use a knife and get a little butter on it and spread it on the slice of bread, That's it!",
+        "ingredients": "1 tablespoon vegetable oil; 1 potato; sliced paper thin (peel optional); ½ teaspoon salt; or to taste",
+        "steps": "First take the bread and make sure it's not expired; Next use a knife and get a little butter on it and spread it on the slice of bread; That's it!",
         "category_id": 1,
-        "user_id": 1
+        "user_id": 3
+    },
+    {
+        "title": "Clam Fritter Snacks",
+        "description": "These are the easiest clam snacks; excellent if you love seafood!! ",
+        "ingredients": "1 (10 ounce) can minced clams; drained; 1 cup baking mix; 1 egg; beaten; 2 tablespoons vegetable oil",
+        "steps": "Drain the clams. In a medium bowl; beat 1 egg and stir in the cup of baking mix and clams.; In a medium skillet heat the oil and fry the clams in pieces until golden brown. Drain on a plate lined with paper towels.",
+        "category_id": 1,
+        "user_id": 5
+    },
+    {
+        "title": "Baked Tortilla Chips",
+        "description": "Serve with your choice of salsas and garnishes.",
+        "ingredients": "1 (12 ounce) package corn tortillas; 1 tablespoon vegetable oil; 3 tablespoons lime juice; 1 teaspoon ground cumin; 1 teaspoon chili powder; 1 teaspoon salt",
+        "steps": "Preheat oven to 350 degrees F (175 degrees C).; Cut each tortilla into 8 chip sized wedges and arrange the wedges in a single layer on a cookie sheet.; In a mister; combine the oil and lime juice. Mix well and spray each tortilla wedge until slightly moist.; Combine the cumin chili powder and salt in a small bowl and sprinkle on the chips.; Bake for about 7 minutes. Rotate the pan and bake for another 8 minutes or until the chips are crisp but not too brown. Serve with salsas garnishes or guacamole.",
+        "category_id": 1,
+        "user_id": 7
+    },
+    {
+        "title": "Extra Easy Hummus",
+        "description": "Tahini-free hummus that only takes minutes",
+        "ingredients": "1 (15 ounce) can garbanzo beans; 1 clove garlic; 2 teaspoons ground cumin; ½ teaspoon salt; 1 tablespoon olive oil",
+        "steps": "In a blender or food processor combine garbanzo beans garlic cumin salt and olive oil.; Blend on low speed gradually adding reserved bean liquid until desired consistency is achieved.",
+        "category_id": 1,
+        "user_id": 9
     },
     {
         "title": "Bread and butter",
         "description": "simple appetizer recipe",
-        "ingredients": "bread, butter",
-        "steps": "First take the bread and make sure it's not expired, Next use a knife and get a little butter on it and spread it on the slice of bread, That's it!",
+        "ingredients": "bread; butter",
+        "steps": "First take the bread and make sure it's not expired; Next use a knife and get a little butter on it and spread it on the slice of bread; That's it!",
         "category_id": 2,
         "user_id": 2
-    },
-    {
-        "title": "Chocolate Sundae",
-        "description": "simple sweet treat",
-        "ingredients": "ice cream of your choice, chocolate sauce, whipped cream",
-        "steps": "First scoop ice cream into a bowl, Next top with chocolate sauce and whipped cream, That's it!",
-        "category_id": 4,
-        "user_id": 2
-    },
-    {
-        "title": "Chocolate Maple Bars",
-        "description": "These bars are delicious!",
-        "ingredients": "1/2 cup shortening, 3/4 cup maple syrup, 1/2 cup sugar, 3 large eggs: room temperature, 3 tablespoons 2% milk, 1 teaspoon vanilla extract, 1-1/4 cups all-purpose flour, 1/4 teaspoon baking powder, 1/4 teaspoon salt, 1-1/2 ounces unsweetened chocolate: melted, 1/2 cup chopped pecans, 1/2 cup sweetened shredded coconut",
-        "steps": "Preheat oven to 350°. In a large bowl cream the shortening syrup and sugar until light and fluffy for 5-7 minutes. Beat in the eggs milk and vanilla. Combine the flour baking powder and salt; add to creamed mixture and mix well. Remove half the batter to another bowl., Combine melted chocolate and pecans; stir into 1 bowl of batter. Spread into a greased 13x9-in. baking pan. Add coconut to remaining batter. Spread carefully over chocolate batter. , Bake until a toothpick inserted in the center comes out clean about 25 minutes. Cool completely on a wire rack., For frosting in a small bowl beat butter until smooth. Gradually add the confectioners' sugar and cocoa. Gradually add syrup beating until smooth. Fold in marshmallows. Frost bars",
-        "category_id": 4,
-        "user_id": 3
-    },
-    {
-        "title": "Crazy Delicious Baby Back Ribs",
-        "description": "Crave a good ribs recipe? Check this out!",
-        "ingredients": "2 tablespoons smoked paprika, 2 teaspoons chili powder, 2 teaspoons garlic salt, 1 teaspoon onion powder, 1 teaspoon pepper, 1/2 teaspoon cayenne pepper, 4 pounds pork baby back ribs, 1/2 cup Worcestershire sauce, 1/2 cup mayonnaise, 1/2 cup yellow mustard, 1/4 cup reduced-sodium soy sauce, 3 tablespoons hot pepper sauce",
-        "steps": "In a small bowl combine the first 6 ingredients. Cut ribs into serving-size pieces; rub with seasoning mixture. Place ribs in a 6-qt. slow cooker. Cook; covered; on low until meat is tender; 5-6 hours., Preheat oven to 375°. In a small bowl; whisk the sauce ingredients. Transfer ribs to a foil-lined 15x10x1-in. baking pan; brush with some of the sauce. Bake until browned; 15-20 minutes; turning once and brushing occasionally with sauce. Serve with remaining sauce.",
-        "category_id": 3,
-        "user_id": 3
     },
     {
         "title": "Potato Soup",
         "description": "The extra flavor gives a deliciously different twist to an otherwise ordinary soup",
-        "ingredients": "3 pounds potatoes; peeled and cut into 1/2-inch cubes (8 cups), 1 large onion, chopped, 1 jar (7 ounces) roasted sweet red peppers; drained and chopped, 1 small celery rib; chopped, 6 cups chicken broth, 1/2 teaspoon garlic powder, 1/2 teaspoon seasoned salt, 1/2 teaspoon pepper, 1/8 teaspoon rubbed sage, 1/3 cup all-purpose flour, 2 cups heavy whipping cream; divided, 1 cup grated Parmesan cheese; divided, 8 bacon strips; cooked and crumbled, 2 tablespoons minced fresh cilantro",
-        "steps": "Place first 9 ingredients in a 5- or 6-qt. slow cooker. Cook; covered; on low 5-6 hours or until potatoes are tender., Mix flour and 1/2 cup cream until smooth; stir into soup. Stir in 3/4 cup cheese and the bacon cilantro and remaining cream. Cook; covered; on low until slightly thickened; about 30 minutes. Serve with remaining cheese.",
+        "ingredients": "3 pounds potatoes; peeled and cut into 1/2-inch cubes (8 cups); 1 large onion; chopped; 1 jar (7 ounces) roasted sweet red peppers, drained and chopped; 1 small celery rib; chopped; 6 cups chicken broth; 1/2 teaspoon garlic powder; 1/2 teaspoon seasoned salt; 1/2 teaspoon pepper; 1/8 teaspoon rubbed sage; 1/3 cup all-purpose flour; 2 cups heavy whipping cream, divided; 1 cup grated Parmesan cheese; divided; 8 bacon strips; cooked and crumbled; 2 tablespoons minced fresh cilantro",
+        "steps": "Place first 9 ingredients in a 5- or 6-qt. slow cooker. Cook; covered; on low 5-6 hours or until potatoes are tender.; Mix flour and 1/2 cup cream until smooth; stir into soup. Stir in 3/4 cup cheese and the bacon cilantro and remaining cream. Cook; covered; on low until slightly thickened; about 30 minutes. Serve with remaining cheese.",
         "category_id": 2,
         "user_id": 4
+    },
+    {
+        "title": "Outrageous Warm Chicken Nacho Dip",
+        "description": "This is a serious crowd-pleaser that is served hot as a dip, spooned over crisp tortilla chips nacho-style, or rolled up in a warm flour tortilla!",
+        "ingredients": "1 (14 ounce) can diced tomatoes with green chile peppers (such as RO*TEL®), drained; 1 (1 pound) loaf processed cheese food (such as Velveeta®), cubed; 2 large cooked skinless, boneless chicken breast halves, shredded; ⅓ cup sour cream; ¼ cup diced green onion; 1 ½ tablespoons taco seasoning mix; 2 tablespoons minced jalapeno pepper, or to taste (Optional); 1 cup black beans, rinsed and drained",
+        "steps": "Place the diced tomatoes, processed cheese, chicken meat, sour cream, green onion, taco seasoning, and jalapeno pepper into a slow cooker. Cook on High, stirring occasionally until the cheese has melted and the dip is hot, 1 to 2 hours. Stir in the black beans, and cook 15 more minutes to reheat.",
+        "category_id": 2,
+        "user_id": 6
+    },
+    {
+        "title": "Air-Fried Bacon-Wrapped Shrimp",
+        "description": "Simple to put together with only 4 ingredients, but big on flavor!",
+        "ingredients": "16 jumbo Shrimp, fresh, raw, jumbo (11-15); ¾ teaspoon Cajun seasoning; 8 strips thin sliced bacon, cut in half; 16 toothpicks; 2 tablespoons hot honey (such as Mike's Hot Honey®)",
+        "steps": "Place shrimp on a plate and sprinkle both sides with Cajun seasoning. Wrap each shrimp with 1 narrow strip of bacon and fasten with a toothpick. Refrigerate for 25 to 30 minutes.; Preheat the air fryer to 400 degrees F (200 degrees C).; Air-fry shrimp for 3 minutes. Flip and continue cooking until bacon is lightly crispy, 4 to 5 minutes more. You may have to do 2 batches depending on the size of your air fryer.; Remove shrimp to a plate and drizzle with hot honey. Serve immediately, being watchful of any toothpicks.",
+        "category_id": 2,
+        "user_id": 8
+    },
+    {
+        "title": "Bacon Wrapped Smokies",
+        "description": "Time consuming but it is well worth it!",
+        "ingredients": "1 pound sliced bacon, cut into thirds; 1 (14 ounce) package beef cocktail wieners; ¾ cup brown sugar, or to taste",
+        "steps": "Preheat the oven to 325 degrees F (165 degrees C).; Refrigerate 2/3 of the bacon until needed. It is easier to wrap the wieners with cold bacon. Wrap each cocktail wiener with a piece of bacon and secure with a toothpick. Place on a large baking sheet. Sprinkle brown sugar generously over all.; Bake for 40 minutes in the preheated oven, until the sugar is bubbly. To serve, place the wieners in a slow cooker and keep on the low setting.",
+        "category_id": 2,
+        "user_id": 10
+    },
+    {
+        "title": "Chicken and spinach dumplings",
+        "description": "fun and easy to make!",
+        "ingredients": "1 bunch English spinach; trimmed; roughly chopped; 250g Lilydale Free Range Chicken Mince; 3 garlic cloves; crushed; 1 tbsp soy sauce; 30 (275g packet) gow gee wrappers",
+        "steps": "Rinse spinach under cold water. Drain. Place in a microwave-safe dish. Cover. Microwave on high (100%) for 1 to 2 minutes or until wilted. Place in a sieve. Drain excess liquid.; Place spinach mince garlic and soy sauce in a large bowl. Stir to combine. Place wrappers on flat surface. Spoon 2 teaspoons mince mixture on 1 half of each wrapper. Brush edges with cold water. Fold over to enclose filling. Press edges together to seal. Place on a tray lined with baking paper.; Place a steamer lined with baking paper over simmering water. Cook dumplings in batches for 15 minutes or until tender and cooked through. Serve.",
+        "category_id": 3,
+        "user_id": 1
+    },
+    {
+        "title": "Crazy Delicious Baby Back Ribs",
+        "description": "Crave a good ribs recipe? Check this out!",
+        "ingredients": "2 tablespoons smoked paprika; 2 teaspoons chili powder; 2 teaspoons garlic salt; 1 teaspoon onion powder; 1 teaspoon pepper; 1/2 teaspoon cayenne pepper; 4 pounds pork baby back ribs; 1/2 cup Worcestershire sauce; 1/2 cup mayonnaise; 1/2 cup yellow mustard; 1/4 cup reduced-sodium soy sauce; 3 tablespoons hot pepper sauce",
+        "steps": "In a small bowl combine the first 6 ingredients. Cut ribs into serving-size pieces; rub with seasoning mixture. Place ribs in a 6-qt. slow cooker. Cook; covered; on low until meat is tender; 5-6 hours.; Preheat oven to 375°. In a small bowl; whisk the sauce ingredients. Transfer ribs to a foil-lined 15x10x1-in. baking pan; brush with some of the sauce. Bake until browned; 15-20 minutes; turning once and brushing occasionally with sauce. Serve with remaining sauce.",
+        "category_id": 3,
+        "user_id": 5
+    },
+    {
+        "title": "Chicken sate skewers",
+        "description": "This wonderful Malay chicken dish creates flavour and excitement with simple cooking and just a few authentic ingredients.",
+        "ingredients": "3 eschalots, roughly chopped; 2 garlic cloves, quartered; 2cm piece fresh ginger, peeled, roughly chopped; 2 long red chillies, roughly chopped; 500g chicken tenderloins, sliced crossways into 1cm pieces; 1/3 cup ABC kecap manis; Canola oil cooking spray; 250ml can Malaysian satay sauce; 1 tbsp kecap manis, extra, to serve; ",
+        "steps": "Place eschalot, garlic, ginger and chilli in the bowl of a food processor. Pulse until smooth. Toss chicken, eschalot mixture and kecap manis in a bowl to coat. Cover with plastic wrap. Refrigerate for 30 minutes.; Thread chicken evenly onto skewers. Spray a chargrill pan with oil. Heat over medium-high heat. Cook skewers, in batches, for 3 minutes each side or until browned and cooked through. Transfer to a plate. Cover with foil to keep warm.; Meanwhile, place sate sauce in a small saucepan over medium heat. Cook, stirring, for 3 to 5 minutes or until heated through. Place skewers on a platter. Drizzle with extra kecap manis. Serve with sauce.",
+        "category_id": 3,
+        "user_id": 10
+    },
+    {
+        "title": "Oysters Rockefeller",
+        "description": "Indulge in these natural oysters, adorned with bread crumbs, bacon and paprika.",
+        "ingredients": "4 French shallots, peeled, coarsely chopped; 1 bunch watercress, sprigs picked, washed, dried; 1 cup loosely packed chopped fresh continental parsley; 60g unsalted butter; 175g rindless bacon rashers, excess fat trimmed, finely chopped; 60ml (1/4 cup) white wine; 1 tsp sweet paprika; 90g (1 1/4 cups) fresh breadcrumbs (made from day-old bread); Rock salt, to serve; 36 natural oysters (such as Sydney rock oysters), in the half shell; Watercress sprigs, extra, to serve; ",
+        "steps": "Place the shallot, watercress and parsley in the bowl of a food processor and process until smooth.; Heat 20g of the butter in a large frying pan over medium heat. Add the bacon. Cook, stirring occasionally, for 6 minutes or until crisp and golden. Use a slotted spoon to transfer the bacon to a plate lined with paper towel.; Add the watercress mixture to the pan. Cook, stirring occasionally, for 2 minutes. Add the wine and paprika. Cook for 5 minutes or until the wine evaporates. Transfer to a bowl.; Wipe the frying pan clean with paper towel. Heat the remaining butter in the frying pan over medium heat. Add the breadcrumbs and cook, stirring occasionally, for 5 minutes or until crisp. Transfer to a bowl.; Preheat grill on high. Place rock salt on a heatproof serving dish. Arrange the oysters on top. Divide the watercress mixture among oysters. Top with the bacon and breadcrumbs. Cook under grill for 8 minutes or until the breadcrumbs are golden. Top with watercress to serve.",
+        "category_id": 3,
+        "user_id": 3
+    },
+    {
+        "title": "Lumpia (Spring rolls)",
+        "description": "This Balinese appetiser is small in size but big on flavour, thanks to the liberal use of spices.",
+        "ingredients": "1 tbsp peanut oil; 2 garlic cloves, finely chopped; 2 tsp finely grated fresh ginger; 250g chicken mince; 200g green prawn meat, finely chopped; 90g (1 1/2 cups) finely shredded savoy cabbage; 50g (2/3 cup) bean sprouts, trimmed; 2 tbsp soy sauce; White pepper; 16 (215 x 215mm) frozen spring roll wrappers, just thawed; Peanut oil, extra, to deep-fry; Sweet and sour sauce (or chilli sauce), to serve",
+        "steps": "Heat the oil in a wok over medium-high heat until smoking. Stir-fry the garlic and ginger for 1 minute or until aromatic. Add the mince and cook, stirring with a wooden spoon to break up any lumps, for 4-5 minutes or until mince changes colour. Add prawn and cabbage, and stir-fry for 2 minutes or until prawn changes colour. Add bean sprouts and soy sauce. Stir-fry until the liquid evaporates. Season with white pepper. Set aside to cool.; Place 1 spring roll wrapper on a clean work surface. Place 2 tablespoonfuls of the chicken mixture diagonally across 1 corner. Brush the opposite corner with water. Fold in the sides and roll up to enclose filling. Repeat with remaining spring roll wrappers and chicken mixture.; Add enough extra oil to a large heavy-based saucepan to reach a depth of 10cm. Heat to 180°C over medium-high heat (when oil is ready a cube of bread turns golden-brown in 15 seconds). Add one-third of the spring rolls and cook, turning occasionally, for 2 minutes or until crisp and golden. Transfer to a plate lined with paper towel. Repeat with remaining spring rolls, reheating oil between batches. Serve with sweet and sour sauce or chilli sauce.",
+        "category_id": 3,
+        "user_id": 7
+    },
+    {
+        "title": "Chocolate Sundae",
+        "description": "simple sweet treat",
+        "ingredients": "ice cream of your choice; chocolate sauce; whipped cream",
+        "steps": "First scoop ice cream into a bowl; Next top with chocolate sauce and whipped cream; That's it!",
+        "category_id": 4,
+        "user_id": 10
+    },
+    {
+        "title": "Chocolate Maple Bars",
+        "description": "These bars are delicious!",
+        "ingredients": "1/2 cup shortening; 3/4 cup maple syrup; 1/2 cup sugar; 3 large eggs: room temperature; 3 tablespoons 2% milk; 1 teaspoon vanilla extract; 1-1/4 cups all-purpose flour; 1/4 teaspoon baking powder; 1/4 teaspoon salt; 1-1/2 ounces unsweetened chocolate: melted; 1/2 cup chopped pecans; 1/2 cup sweetened shredded coconut",
+        "steps": "Preheat oven to 350°. In a large bowl cream the shortening syrup and sugar until light and fluffy for 5-7 minutes. Beat in the eggs milk and vanilla. Combine the flour baking powder and salt, add to creamed mixture and mix well. Remove half the batter to another bowl.; Combine melted chocolate and pecans, stir into 1 bowl of batter. Spread into a greased 13x9-in. baking pan. Add coconut to remaining batter. Spread carefully over chocolate batter.; Bake until a toothpick inserted in the center comes out clean about 25 minutes. Cool completely on a wire rack.; For frosting in a small bowl beat butter until smooth. Gradually add the confectioners' sugar and cocoa. Gradually add syrup beating until smooth. Fold in marshmallows. Frost bars",
+        "category_id": 4,
+        "user_id": 4
+    },
+    {
+        "title": "New York Cheesecake III",
+        "description": "A dense, thick cheesecake with a shortdough crust. This is THE definitive one! You'll never use another cheesecake recipe after you try this.",
+        "ingredients": "1 ½ cups all-purpose flour; ⅓ cup white sugar; 1 egg, beaten; ½ cup butter, softened; 2 ½ pounds cream cheese, softened; 1 ¾ cups white sugar; 3 tablespoons all-purpose flour; 5 eggs; 2 egg yolks; ¼ cup heavy whipping cream",
+        "steps": "Preheat oven to 400 degrees F (200 degrees C). Lightly coat a 10 inch springform pan with spray oil. Note: You could use a 9x13 inch pan instead.; To make the crust: Combine 1 1/2 cups flour, 1/3 cup sugar, 1 egg and 1/2 cup butter or margarine. Spread to the edges of the pan. Prick all over with a fork, then bake 15 minutes at 400 degrees F (200 degrees C). Allow to cool.; Increase oven temperature to 475 degrees F (245 degrees C). In a large bowl, combine cream cheese, 1 3/4 cups sugar, 3 tablespoons flour, 5 eggs and the yolks and mix thoroughly. Add cream and mix only enough to blend.; Pour filling over crust and bake for 10 minutes at 475 degrees F (245 degrees C). Reduce temperature to 200 degrees F (95 degrees C) and continue to bake for one hour. Turn oven off, but leave cake in for another hour. Don't worry if it looks a little jiggly in the center.; Chill overnight. This is imperative! If desired, top with your favorite fruit or serve plain.",
+        "category_id": 4,
+        "user_id": 6
+    },
+    {
+        "title": "Chocolate Cream Pudding",
+        "description": "Sugar, cornstarch, milk and unsweetened chocolate are cooked, thickened with egg yolks, cooked some more and then flavored with butter and vanilla before chilling. ",
+        "ingredients": "1 cup white sugar ; 2 tablespoons cornstarch; ¼ teaspoon salt; 2 cups milk; 2 (1 ounce) squares unsweetened chocolate, chopped; 2 egg yolks; 2 tablespoons butter; 2 teaspoons vanilla extract",
+        "steps": "In a medium saucepan over medium heat, combine sugar, cornstarch and salt. Stir in milk and chocolate. Cook, stirring constantly, until chocolate melts and mixture thickens. Remove from heat and stir in egg yolks. Return to heat and cook 2 minutes more. Remove from heat and stir in butter and vanilla. Chill before serving.",
+        "category_id": 4,
+        "user_id": 10
+    },
+    {
+        "title": "Pistachio Layer Cake with Cream Cheese Buttercream",
+        "description": "This pistachio layer cake with cream cheese buttercream is really special. The layers are light, moist, and not too sweet, with plenty of pistachio flavor.",
+        "ingredients": "3 cups unsalted pistachios; 2 ⅓ cups all-purpose flour; 2 teaspoons baking powder; 1 teaspoon kosher salt; ½ teaspoon baking soda; ¾ cup unsalted butter; 1 ¾ cups white sugar; 5 large egg whites; ½ cup sour cream; 2 teaspoons vanilla extract; 1 teaspoon almond extract; 1 cup whole milk; 1 drop green gel food coloring; 2 (8 ounce) packages cream cheese, softened; ½ cup unsalted butter; 8 cups powdered sugar; 2 teaspoons vanilla extract; 1 drop green food coloring",
+        "steps": "Preheat the oven to 350 degrees F (175 degrees C). Spray three 8-inch round cake pans with cooking spray. Line each pan with a round piece of parchment paper, and spray with cooking spray.; Prepare the cake: pulse pistachios in a food processor until finely ground, 10 to 15 pulses. Transfer 1 1/2 cups ground pistachios to a bowl with flour, baking powder, salt, and baking soda; whisk until well combined and set aside. Place remaining ground pistachios, about 1 1/3 cups, in a bowl and reserve for finishing the cake.; Beat butter and white sugar for cake in a stand mixer fitted with a paddle attachment on medium-high speed, scraping down the sides as needed, until light and fluffy, about 3 minutes. Add egg whites and beat on high speed until combined, about 2 minutes.; Mix in sour cream, vanilla extract, and almond extract until combined, about 1 minute. Add flour mixture in batches on low speed until completely incorporated, about 2 minutes. Mix in milk and food coloring until just combined, about 1 minute.; Divide batter evenly among the prepared cake pans. Gently tap each pan on the countertop to spread and flatten batter.; Bake in the preheated oven until a toothpick inserted into the center of each pan removes cleanly, 22 to 24 minutes. Cool cakes in the pans for about 10 minutes. Run a table knife around the edges to loosen cakes, then invert carefully onto a serving plate or cooling rack. Let cool completely, about 30 minutes.; While the cakes are cooling, prepare buttercream: beat cream cheese and butter in a stand mixer fitted with a paddle attachment on medium-high speed until light and fluffy, about 3 minutes. Mix in powdered sugar in 1/2-cup increments on medium-low speed, allowing sugar to be completely incorporated before adding more, until combined, about 4 minutes. Mix in vanilla and food coloring on medium-high speed until light and fluffy, about 2 minutes.; Place one cake layer on a serving plate or cake stand. Top with 1 cup buttercream and 1 tablespoon ground pistachios, and spread evenly over the surface using a spatula. Place second cake layer on top; top with 1 cup buttercream and 1 tablespoon ground pistachios, and spread evenly over the surface. Place third cake layer on top, and spread 1 cup buttercream evenly over the surface. Spread 2 cups buttercream evenly around sides of assembled cake and smooth with a spatula. Transfer cake to the refrigerator and chill for 30 minutes.; Remove cake from the refrigerator and spread remaining buttercream over top and sides of cake until sides are smooth and top is billowy. Using a small offset spatula, make a spiral pattern on top of the cake. Press remaining ground pistachios into sides of the cake.; Slice and serve immediately or chill in an airtight container until ready to serve. If chilled, allow cake to come to room temperature before serving.",
+        "category_id": 4,
+        "user_id": 2
     }
 ]
