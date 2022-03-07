@@ -3,7 +3,7 @@ const router = require('express').Router();
 const withAuth = require('../../utils/auth');
 
 // render add recipe page
-router.get('/:id', withAuth, async (req,res) => {
+router.get('/:id', async (req,res) => {
     try {
         res.render('loginpage');
     } catch (err) {
