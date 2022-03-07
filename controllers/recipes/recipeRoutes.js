@@ -1,6 +1,20 @@
 const router = require('express').Router();
 const {User, Recipe, Category, Comments} = require('../../models');
 
+
+router.get('/', async (req,res) => {
+    try{
+        const recipeData = await Recipe.findAll();
+        
+        const recipes = recipeData.map((recipe) => recipe.get({plain:true}));
+    
+        res.render('category', {recipes});
+        
+    } catch (err) {
+        res.status(500).json(err)
+    }
+});
+
 // get a specific recipe
 router.get('/:id', async (req,res) => {
     try{
