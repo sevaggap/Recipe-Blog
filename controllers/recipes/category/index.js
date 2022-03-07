@@ -5,10 +5,10 @@ const dessertRoutes = require('./dessertRoutes');
 const snackRoutes = require('./snackRoutes');
 const addcommentsRoutes = require('./addcommentRoutes');
 
-router.use('/Appetizers', appetizerRoutes);
-router.use('/Entrees', entreeRoutes);
-router.use('/Desserts', dessertRoutes);
-router.use('/Snacks', snackRoutes);
+router.use('/Appetizer', appetizerRoutes);
+router.use('/Entree', entreeRoutes);
+router.use('/Dessert', dessertRoutes);
+router.use('/Snack', snackRoutes);
 router.use('/addcomment', addcommentsRoutes);
 
 module.exports = router;
