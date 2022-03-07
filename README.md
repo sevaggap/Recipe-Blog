@@ -20,7 +20,9 @@
 
 The URL of the functional, deployed on Heroku.( https://)
 
-The URL of the GitHub repository. (https://github.com/)
+The URL of the GitHub repository. (https://github.com/sevaggap/UofT-SCS-Coding-Bootcamp-Project-2-Recipe-Blog)
+
+Link to our presentation. (hhttps://docs.google.com/presentation/d/1Ix3WR2SJk3R7zpXetRYYMQezy-_mNgfOOiOaSsN9mVY/edit?usp=sharing)
 
 Screenshot/Demo
 ![]()
