@@ -16,30 +16,11 @@ router.get('/', async (req,res) => {
 
         const recipes = entreeData.map((entree) => entree.get({plain:true}));
     
-        res.render('category', recipes);
+        res.render('category', {recipes});
 
     } catch (err) {
         res.status(500).json(err)
     }
 });
-
-// get a specific recipe
-router.get('/:id', async (req,res) => {
-    try{
-        const entreeData = await Recipe.findByPk(req.params.id, {
-            include: [{
-                    model: User,
-                    attributes: ['first_name','last_name']
-            }]
-        });
-
-        const entree = entreeData.get({plain:true});
-
-        res.render('entrees', entree);
-
-    } catch(err) {
-        res.status(500).json(err);
-    }
-})
 
 module.exports = router;

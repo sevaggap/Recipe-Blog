@@ -16,29 +16,11 @@ router.get('/', async (req,res) => {
 
         const recipes = snackData.map((snack) => snack.get({plain:true}));
     
-        res.render('category', recipes);
+        res.render('category', {recipes});
 
     } catch (err) {
         res.status(500).json(err)
     }
 });
 
-// get a specific recipe
-router.get('/:id', async (req,res) => {
-    try{
-        const snackData = await Recipe.findByPk(req.params.id, {
-            include: [{
-                model: User,
-                attributes: ['first_name','last_name']
-            }]
-        })
-
-        const snack = snackData.get({plain:true});
-
-        res.render("snacks", snack);
-
-    } catch (err) {
-        res.status(500).json(err);
-    }
-})
 module.exports = router;
