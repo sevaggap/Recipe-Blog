@@ -5,14 +5,14 @@ const withAuth = require('../../utils/auth');
 // render add recipe page
 router.get('/', withAuth, async (req,res) => {
     try {
-        res.render('add-recipe');
+        res.render('add-recipe', {loggedIn: req.session.logged_in});
     } catch (err) {
         res.status(500).json(err);
     }
 });
 
 // add a recipe
-router.post('/', withAuth, async (req,res) => {
+router.post('/', async (req,res) => {
     try{
         if(req.body.category == 'Snack') {
             category = 1;
@@ -24,6 +24,7 @@ router.post('/', withAuth, async (req,res) => {
             category = 4;
         }
 
+        console.log('im here');
         const newRecipeData = await Recipe.create({
             title: req.body.title,
             description: req.body.description,

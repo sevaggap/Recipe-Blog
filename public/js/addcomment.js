@@ -1,13 +1,14 @@
 const commentFormHandler = async (event) => {
     event.preventDefault();
   
-    const title = document.querySelector('#recipe-title').value.trim();
+    const recipeid = document.querySelector('#recipeid');
     const text = document.querySelector('#comment').value.trim();
   
-    if (title && text) {
-      const response = await fetch('/user/addrecipe', {
+    console.log('hi');
+    if (text) {
+      const response = await fetch('/dashboard/comments', {
         method: 'POST',
-        body: JSON.stringify({ title, description, ingredients, directions, category }),
+        body: JSON.stringify({ recipeid, text}),
         headers: { 'Content-Type': 'application/json' },
       });
   
@@ -17,10 +18,10 @@ const commentFormHandler = async (event) => {
         alert('Failed to add a recipe');
       }
     }
-  };
+};
 
 
 document
     .querySelector('#comment-form')
-    .addEventListener('submit', commentFormHandler);
+    .addEventListener('click', commentFormHandler);
   

@@ -5,8 +5,7 @@ const recipeFormHandler = async (event) => {
     const description = document.querySelector('#description').value.trim();
     const ingredients = document.querySelector('#ingredients').value.trim();
     const directions = document.querySelector('#steps').value.trim();
-    const category = document.querySelector('category').value.trim;
-
+    const category = document.querySelector('#category').value.trim;
   
     if (title && description && ingredients && directions && category) {
       const response = await fetch('/dashboard/new', {
@@ -16,7 +15,7 @@ const recipeFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/user');
+        document.location.replace('/dashboard');
       } else {
         alert('Failed to add a recipe');
       }

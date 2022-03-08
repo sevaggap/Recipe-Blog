@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {User, Recipe, Category, Comments} = require('../../models');
+const {User, Recipe, Category, Comment} = require('../../models');
 
 
 router.get('/', async (req,res) => {
@@ -36,7 +36,7 @@ router.get('/:id', async (req,res) => {
         console.log(steps);
         console.log(recipe);
         
-        res.render('single-recipe', {recipe,ingredients,steps})
+        res.render('single-recipe', {recipe,ingredients,steps, loggedIn: req.session.logged_in})
     } catch (err) {
         res.status(500).json(err);
     }

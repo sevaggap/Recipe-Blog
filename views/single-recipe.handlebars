@@ -1,8 +1,8 @@
 <div id="fh5co-product" class="fh5co-bg-section">
     <div class="container">
         <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="recipetitle">
-                <h2>{{recipe.title}}</h2>
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h2 id="recipetitle">{{recipe.title}}</h2>
             </div>
         </div>
 
@@ -24,11 +24,8 @@
                     </ul>
                     {{/each}}
                 </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="{{recipe.image_url}}" alt="{{recipe.title}}">
-            </div>
             <div class="col-md-12 text-center mt-25">
-                <h4>Posted by {{recipe.users.first_name}} </h4>
+                <h4>Posted by {{recipe.Users.last_name}} </h4>
             </div>
         </div>
 
@@ -39,9 +36,9 @@
         {{#if loggedIn}}
         <div class="row animate-box">     
             <div class="col-md-10 col-md-offset-1">
-                <h3>Add a comment</h3>
+                <h3>Add a comment on recipe</h3>
+                <h2 id="recipeid">{{recipe.id}}</h2>
                 
-                <form class="comment-form">
                     <div class="row form-group">
                         <div class="col-md-12">
                             <textarea name="comment" id="comment" cols="10" rows="4" class="form-control"
@@ -50,10 +47,9 @@
                     </div>
 
                     <div class="form-group mt-40 text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button id="comment-form" class="btn btn-primary">Submit</button>
                     </div>
 
-                </form>
             </div>
         </div>
         {{/if}}
@@ -62,5 +58,5 @@
 </div>
 
 {{#if loggedIn}}
-<script src="/js/comment.js"></script>
+<script src="/js/addcomment.js"></script>
 {{/if}}
