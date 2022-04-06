@@ -68,7 +68,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-The URL of the GitHub repository. (https://github.com/sevaggap/UofT-SCS-Coding-Bootcamp-Project-2-Recipe-Blog)
+The URL of the GitHub repository. (https://github.com/sevaggap/Recipe-Blog)
+
+Deployed Application. (https://aqueous-dusk-06915.herokuapp.com/)
 
 Link to our presentation. (https://docs.google.com/presentation/d/1Ix3WR2SJk3R7zpXetRYYMQezy-_mNgfOOiOaSsN9mVY/edit?usp=sharing)
 
